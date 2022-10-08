@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/02/24/13/23/buildings-647400__480.jpg");
+    background-size: auto;
+    }
+
+@keyframes movimento {
+    from {top: -150px;}
+    to {top: 250px;}
+}
+
+.cartao{
+    width: 500px;
+    height: 250px;
+    border: 2px solid #000;
+    background-color: #820AD1;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-top: 300px;
+    margin-left: auto;
+    position: relative;
+    animation: movimento 8s infinite alternate;   
+    }
+
+.masterCard{    
+    height: 50px;
+    width: auto;
+    margin-left: 420px;
+    margin-top: 15px;
+}
+
+.chip{
+    height: 50px;
+    margin-right: 1200px;
+    margin-left: 35px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.aproximacao{
+    height: 25px;
+    margin-left: 50px;
+    margin-top: -500px;
+    position: relative;
+    left: 40px;
+    bottom: 120px;
+    image-rendering: optimizeQuality;
+}
+
+.nu{
+    height: 90px;
+    margin-left: -70px;
+    margin-top: 15px;
+    width: auto;
+    position: relative;
+    bottom: -10px;
+}
+
+.digitacao {
+    font-family: "Lucida Console", Times, serif;
+    font-size: 17px;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: -70px;
+}
